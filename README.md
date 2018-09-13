@@ -1,3 +1,15 @@
+## Instructions
+
+This submission differs slightly from the instructions, adding a GetData() function to handle the retrieving, unzipping, and manipulating the data prior to plotting. This function expects the other Plot1-4.R files to be located in the working directory, and will execute them in sequence after loading the data. The source data is also made available via the global environment variable power_data. 
+
+There are 2 additional columns added to the original data set:
+<ol>
+  <li><b>Datetime</b>: A POSIXlt representation of the Date and Time columns</li>
+  <li><b>Weekday</b>: The abbreviated weekday of the Date column</li>
+</ol>
+
+Additionally, the Date column has been converted to the Date type.
+
 ## Introduction
 
 This assignment uses data from
