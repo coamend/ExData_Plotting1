@@ -1,6 +1,6 @@
 ## Instructions
 
-This submission differs slightly from the instructions, adding a GetData() function to handle the retrieving, unzipping, and manipulating the data prior to plotting. This function expects the other Plot1-4.R files to be located in the working directory, and will execute them in sequence after loading the data. The source data is also made available via the global environment variable power_data. 
+This submission differs slightly from the instructions, adding a GetData() function to handle the retrieving, unzipping, and manipulating the data prior to plotting. This function expects the other Plot1-4.R files to be located in the working directory, and will execute them in sequence after loading the data. The source data is also made available via the global environment variable power_data, and is filtered to contain only those measurements on February 1st and 2nd of 2007. 
 
 There are 2 additional columns added to the original data set:
 <ol>
